@@ -6,7 +6,7 @@ import org.sonar.api.batch.sensor.issue.NewIssue;
 import org.sonar.api.rule.RuleKey;
 import org.sonar.check.Rule;
 
-@Rule(key = MultipleLineProcessLoop.RULE_KEY, name = "Multiple Line Processing Loop ", description = "File shall not have multiple loops")
+@Rule(key = MultipleLineProcessLoop.RULE_KEY, name = "Multiple Line Processing Loop ", description = "File shall not have multiple loops in it")
 public class MultipleLineProcessLoop implements FlagLineRule {
   public static final String RULE_KEY = "MultipleLineProcessingLoop";
 
